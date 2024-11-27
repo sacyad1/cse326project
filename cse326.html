@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Delicious Bites Restaurant</title>
+    <link rel="stylesheet" href="cse326.css">
+    
+</head>
+<body>
+
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#order">Order Online</a></li>
+                <li><a href="#booking">Book a Table</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content" style="background-image: url('proj/res.jpg');">
+            
+            <h1>Welcome to Delicious Bites</h1>
+            <p>Experience the finest Indian dining in town!</p>
+            <a href="#menu" class="cta-button">Browse Our Menu</a>
+            
+        </div>
+    </section>
+    <section id="menu" class="menu">
+        <h2>Our Menu</h2>
+        <div class="menu-items">
+            <div class="menu-item">
+                <img src="proj/butter chicken.jpg" alt="Butter Chicken">
+                <h3>Butter Chicken</h3>
+                <p>A creamy tomato-based curry with tender chicken pieces.</p>
+                <p class="price">299 /</p>
+            </div>
+            <div class="menu-item">
+                <img src="proj/paneer butter masala.jpg" alt="Paneer Butter Masala">
+                <h3>Paneer Butter Masala</h3>
+                <p>Soft paneer cubes in a rich, buttery tomato gravy.</p>
+                <p class="price">299 /</p>
+            </div>
+            <div class="menu-item">
+                <img src="proj/chicken tikka.jpg" alt="Chicken Tikka Masala">
+                <h3>Chicken Tikka Masala</h3>
+                <p>Boneless chicken pieces cooked in a spicy, creamy sauce.</p>
+                <p class="price">299 /</p>
+            </div>
+            <div class="menu-item">
+                <img src="proj/chapati.jpg" alt="Chicken Tikka Masala">
+                <h3>Chapati</h3>
+                <p class="price">15 /</p>
+            </div>
+            <div class="menu-item">
+                <img src="proj/naan.jpg" alt="Chicken Tikka Masala">
+                <h3>Garlic naan</h3>
+                <p class="price">29 /</p>
+            </div>
+        </div>
+    </section>
+    <section id="order" class="order">
+        <h2>Order Online</h2>
+        <p>Craving your favorite Indian dish? Order online and have it delivered!</p>
+
+        <div class="order-container">
+            <div class="order-card">
+                <h3>Choose Dish</h3>
+                <div class="dish-options">
+                    <div class="dish-option">
+                        <img src="proj/butter chicken.jpg" alt="Butter Chicken">
+                        <span>Butter Chicken</span>
+                    </div>
+                    <div class="dish-option">
+                        <img src="proj/paneer butter masala.jpg" alt="Paneer Butter Masala">
+                        <span>Paneer Butter Masala</span>
+                    </div>
+                    <div class="dish-option">
+                        <img src="proj/chicken tikka.jpg" alt="Chicken Tikka Masala">
+                        <span>Chicken Tikka Masala</span>
+                    </div>
+                    <div class="dish-option">
+                        <img src="proj/naan.jpg" alt="Chicken Tikka Masala">
+                        <span>naan</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="order-form">
+                <form>
+                    <div class="form-group">
+                        <label for="quantity">Quantity:</label>
+                        <input type="number" id="quantity" name="quantity" min="1" value="1" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="address">Delivery Address:</label>
+                        <input type="text" id="address" name="address" placeholder="Enter your delivery address" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Phone Number:</label>
+                        <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+                    </div>
+
+                    <button type="submit" class="btn-order">Place Order</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section id="booking" class="booking">
+        <h2>Book a Table</h2>
+        <p>Reserve your spot at Delicious Bites and enjoy a memorable dining experience!</p>
+        <form>
+            <div class="form-group">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="date">Reservation Date:</label>
+                <input type="date" id="date" name="date" required>
+            </div>
+
+            <div class="form-group">
+                <label for="time">Reservation Time:</label>
+                <input type="time" id="time" name="time" required>
+            </div>
+
+            <div class="form-group">
+                <label for="people">Number of People:</label>
+                <input type="number" id="people" name="people" min="1" required>
+            </div>
+
+            <button type="submit" class="btn-book">Book Now</button>
+        </form>
+    </section>
+
+    <section id="about" class="about">
+        <div class="about-left">
+            <img src="proj/restorent.jpg" alt="Restaurant Interior">
+        </div>
+        <div class="about-right">
+            <h2>About Delicious Bites</h2>
+            <p>Delicious Bites is your go-to place for authentic, flavorful Indian cuisine in the heart of the city. Whether you're in the mood for a spicy curry or a creamy tikka, our wide range of dishes will delight your taste buds.</p>
+            <p>Our chefs use only the freshest ingredients and traditional cooking methods to ensure the highest quality and most delicious meals. Come for the food, stay for the experience!</p>
+        </div>
+    </section>
+
+
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions? We'd love to hear from you!</p>
+        <form>
+            <label for="contact_name">Your Name:</label>
+            <input type="text" id="contact_name" name="name" required>
+            
+            <label for="contact_email">Your Email:</label>
+            <input type="email" id="contact_email" name="email" required>
+            
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    
+    <footer>
+        <p>&copy; 2024 Delicious Bites Restaurant</p>
+    </footer>
+
+</body>
+</html>

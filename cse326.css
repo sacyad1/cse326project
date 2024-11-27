@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f4e7;
+    color: #333;
+}
+
+header {
+    background-color: #c0392b; 
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #f5a623; 
+}
+
+.hero {
+    background: url('proj/res.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+    color: #f5a623; 
+}
+
+.hero p {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.cta-button {
+    padding: 10px 20px;
+    background-color: #f5a623; 
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.cta-button:hover {
+    background-color: #d48f1c; 
+}
+
+
+.order {
+    padding: 40px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.order h2 {
+    font-size: 36px;
+    color: #c0392b;
+    margin-bottom: 20px;
+}
+
+.order-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.order-card {
+    width: 300px;
+    padding: 20px;
+    background-color: #f9f4e7;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.order-card h3 {
+    font-size: 24px;
+    color: #c0392b;
+    margin-bottom: 20px;
+}
+
+.dish-options {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.dish-option {
+    text-align: center;
+    margin-bottom: 20px;
+    width: 100px;
+}
+
+.dish-option img {
+    width: 80px;
+    height: 80px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    transition: transform 0.3s;
+}
+
+.dish-option img:hover {
+    transform: scale(1.1);
+}
+
+.dish-option span {
+    font-size: 14px;
+    color: #333;
+}
+
+.order-form {
+    width: 350px;
+    padding: 20px;
+    background-color: #f9f4e7;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.order-form .form-group {
+    margin-bottom: 20px;
+}
+
+.order-form label {
+    font-size: 16px;
+    color: #333;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.order-form input {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.order-form input[type="tel"] {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.order-form button.btn-order {
+    width: 100%;
+    background-color: #f5a623; 
+    color: white;
+    padding: 12px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s;
+}
+
+.order-form button.btn-order:hover {
+    background-color: #d48f1c;
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 0;
+    background-color: #fff;
+}
+
+.about-left {
+    flex: 1;
+    margin-right: 30px;
+}
+
+.about-right {
+    flex: 1;
+    text-align: left;
+}
+
+.about h2 {
+    font-size: 36px;
+    color: #c0392b;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 18px;
+    color: #555;
+}
