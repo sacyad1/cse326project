@@ -1,2 +1,3 @@
 # cse326project
-all
+#This is a website for a restaurant "Delicious Bites".
+
